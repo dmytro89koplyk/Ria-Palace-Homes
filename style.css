@@ -1,0 +1,471 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, big, em, font, img, small, strong, sub, sup, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit;  font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline;}
+:focus { outline: 0;}
+ol, ul { list-style: none;}
+table { border-collapse: separate; border-spacing: 0;}
+caption, th, td { text-align: left; font-weight: normal;}
+strong,b{font-weight:bold}
+em{font-style:italic}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+* {box-sizing: border-box}
+
+
+
+@font-face {
+    font-family: 'Muli';
+    src: url('fonts/Muli-Light.eot');
+    src: url('fonts/Muli-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Muli-Light.woff2') format('woff2'),
+        url('fonts/Muli-Light.woff') format('woff'),
+        url('fonts/Muli-Light.ttf') format('truetype'),
+        url('fonts/Muli-Light.svg#Muli-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('fonts/ArialMT.eot');
+    src: url('fonts/ArialMT.eot?#iefix') format('embedded-opentype'),
+        url('fonts/ArialMT.woff2') format('woff2'),
+        url('fonts/ArialMT.woff') format('woff'),
+        url('fonts/ArialMT.ttf') format('truetype'),
+        url('fonts/ArialMT.svg#ArialMT') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Calibri';
+    src: url('fonts/Calibri.eot');
+    src: url('fonts/Calibri.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Calibri.woff2') format('woff2'),
+        url('fonts/Calibri.woff') format('woff'),
+        url('fonts/Calibri.ttf') format('truetype'),
+        url('fonts/Calibri.svg#Calibri') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+.base {width:100%;background:#221513;
+                  
+                       }
+					   
+.center{width:940px;margin:0 auto;}
+.baseweb{width:100%}
+.clear{clear:both;}
+.center{width:940px;margin:0 auto;}
+.baseheader{width:100%;height:60px;
+         background-image: url(images/baseheader.jpg); 
+		 background-repeat:no-repeat;
+		 background-size:100%;
+		 background-position: 109px 0px;}
+		 
+		 
+.header{width:100%;height:60px;}
+.logo{ width: 150px;height: 60px;float: left;}
+.logo img{width:100%;height:100%}
+.menu{width:450px; height:60px;margin-left:280px; }
+.menu ul li {float:left;margin-top: 15px;}
+.menu ul li a {text-decoration:none; margin-right:30px;  font-family: 'Calibri', sans-serif; color:#f0b4aa; font-size:13pt; margin-top:10px:}
+.menu li a:hover{color:#fabbb0;text-decoration:underline;}
+.language{width:210px;height:60px;float:right;}
+select{padding-right:10px;background:#271715;border:none;font-family: 'Calibri', sans-serif; color:#775751;font-size:10pt;cursor:pointer;  margin-top: 18px;  
+         -moz-appearance: none;
+		 background-image: url(images/arow.png); 
+		 background-repeat:no-repeat;
+		 background-position: 50px 9px;}
+
+.slider {width: 100%;position: absolute;z-index: 5;}
+.slider{ width:100%;}
+.slider img{ width:100%; height:700px; overflow:hidden; }
+.home{width:100%; height:700px;}
+.apartment{height:260px;width:450px;background-color: rgba(242, 237, 237, 0.9); position: absolute;z-index: 5;margin: 160px 0px 0px 480px;border: 4px double #c0bab1;
+            background-image: url(images/line.jpg);  
+            background-repeat:no-repeat;
+            background-position: center center; }
+
+.feal{font-family: 'Calibri', sans-serif;font-size:16pt;color:#000;text-transform:uppercase;text-align:center;}
+.apart{font-family: 'Muli', sans-serif;font-size:30pt;text-transform:uppercase;text-align:center;color:#000}
+.arial{   font-family: 'Arial', sans-serif;text-align:justify;color:#000;font-size:14pt;}
+.riahometext{font-family: 'Muli', sans-serif;font-size:25pt;text-align:left;color:#000}
+.riamuli{font-family: 'Muli', sans-serif;font-size:11pt;color:#856b67}
+.riapaltext{ font-family: 'Arial', sans-serif;text-align:justify;color:#717171;font-size:10pt;}
+
+
+.apartment .feal{margin:20px 0px 0px 0px;}
+.apartment .apart{}
+.apartment .arial{margin:45px 65px 0px 65px;font-size: 11pt;}
+
+.riahomes{width:100%;float:left;}
+
+.riahomes .riahometext{margin-top:45px;}
+.riapalaceone{width:50%;height:160px;float:left;}
+.riapalacetwo{width:50%;height:160px;float:right;}
+
+.riapalaceone .riapaltext{margin-top:10px;text-align:left;}
+.riapalacetwo .riapaltext{margin-top:10px;text-align:left;}
+#comodo{color:#856b67;text-decoration:underline;}
+.riapalace{float:left;width:100%}
+.riaplace{width:100%;height:275px;float:left;}
+.riaplacetwo{width:100%;height:170px;float:left;border-top:solid 3px #f1eceb;}
+.riaplacetwo .riahometext{margin-top:30px;}
+.riaplacetwo .riamuli{margin-top:3px;text-align:left}
+.riaplacetwo .riapaltext{margin-top:12px;text-align:left}
+
+.contain{width:100%; height:480px; float:left;}
+.containleft{width:50%; height:460px; float:left;}
+.containleft img{width:100%;height:97%;}
+
+.containright{width:50%; height:460px; float:right;}
+.containright .vulp {margin:0px 0px 0px 20px;width:435px;height:220px;background:#FFF;border: 4px double #c0bab1;}
+.containright .vulp .feal{font-size: 16pt;margin-top: 10px;}
+.containright .vulp .apart{font-size: 26pt;}
+.containright .vulp .arial{margin:  17px 35px 0px 35px;font-size: 12pt;}
+.containright img{ width:220px; height:200px;}
+.contain .kran{float:right;height:210px;width:210px;margin: 16px 10px 0px 0px;
+     background-image: url(images/clock.jpg);  
+     background-repeat:no-repeat;
+	 background-size:100%;} 
+.contain .clock{float:left;height:210px;width:210px;margin: 16px 0px 0px 20px;
+     background-image: url(images/kran.jpg);  
+     background-repeat:no-repeat;
+	 background-size:125%;}       
+
+.boatcontain{	 width:100%; height:670px; float:left;}
+.boatcontain .containright{width:50%; height:460px; float:left;}	 
+.boatcontain .containright .vulp {margin: 15px 0px 0px 20px;}
+.boatcontain .containright .cage{float:left;height:195px;width:210px;margin: 16px 0px 0px 20px;
+     background-image: url(images/cage.jpg);  
+     background-repeat:no-repeat;
+	 background-size:100% 100%;;}
+.boatcontain .containright .river{float:right;height:195px;width:210px;margin: 16px 10px 0px 0px;
+     background-image: url(images/river.jpg);  
+     background-repeat:no-repeat;
+	 background-size:100% 100%;} 
+
+.boatcontain .containrightboat{width:50%; height:445px; float:right;margin-top: 15px;
+     background-image: url(images/boat.jpg);  
+     background-repeat:no-repeat;
+	 background-size:100% 97%;}
+
+.Floorplan{ width:100%; height:670px; float:left;}
+.containleftfloor{width:50%; height:445px; float:left;margin-top: 15px;
+     background-image: url(images/apart.png);  
+     background-repeat:no-repeat;
+	 background-size:100% 97%;}
+
+.containrightfloor{width:50%; height:445px; float:right;margin-top: 15px}
+.Floorplan .containrightfloor .riapaltext{text-align:left; margin-left:15px;  margin-top: 0.5em;}
+.Floorplan .containrightfloor #floorol{list-style:disc;font-family: 'Arial', sans-serif;color:#777271;font-size:10pt;margin: 20px 0px 0px 45px;font-style:italic;}
+#prog{width:200px; height:45px;text-decoration:none; background:#fff;border: 6px double #c0bab1;cursor: pointer; margin: 55px 0px 0px 150px;font-family: 'Muli', sans-serif;
+      font-size:14pt;text-transform:uppercase;}
+
+.royal	  .riaplacetwo{height: 120px;}
+.royal	.riapaltext{text-align:left;font-size:12px;}
+#fusce{width:23%; height:260px;float:left;margin-right:18px;
+            background-image: url(images/bic.jpg);  
+            background-repeat:no-repeat;
+			background-size:100% 66%;}
+#fusce .controyaltext{margin-top: 185px;text-align:left;}
+
+#Lipablre {width:23%; height:260px;float:left;margin-right:18px;
+            background-image: url(images/field.jpg);  
+            background-repeat:no-repeat;
+			background-size:100% 66%;}
+#Lipablre .controyaltext{margin-top: 185px;text-align:left;}
+
+#Chupacabra {width:23%; height:260px;float:left;margin-right:18px;
+            background-image: url(images/wave.jpg);  
+            background-repeat:no-repeat;
+			background-size:100% 66%;}
+#Chupacabra .controyaltext{margin-top: 185px;text-align:left;}
+
+#Starikabra{width:23%; height:260px;float:left;margin-right:18px;
+            background-image: url(images/leafs.jpg);  
+            background-repeat:no-repeat;
+			background-size:100% 66%;}
+#Starikabra .controyaltext{margin-top: 185px;text-align:left;}
+
+#Fuscebot{width:23%; height:260px;float:left;margin-right:18px;
+            background-image: url(images/build.jpg);  
+            background-repeat:no-repeat;
+			background-size:100% 66%;}
+
+#Fuscebot .controyaltext{margin-top: 185px;text-align:left;}
+
+#Lipablrebot{width:23%; height:260px;float:left;margin-right:18px;
+            background-image: url(images/bridge.jpg);  
+            background-repeat:no-repeat;
+			background-size:100% 66%;}
+#Lipablrebot .controyaltext{margin-top: 185px;text-align:left;}
+
+#Chupacabrabot {width:23%; height:260px;float:left;margin-right:18px;
+            background-image: url(images/streat.jpg);  
+            background-repeat:no-repeat;
+			background-size:100% 66%;}
+#Chupacabrabot .controyaltext{margin-top: 185px;text-align:left;}
+
+#Starikabrabot{width:23%; height:260px;float:left;margin-right:18px;
+            background-image: url(images/inner.jpg);  
+            background-repeat:no-repeat;
+			background-size:100% 66%;}
+#Starikabrabot .controyaltext{margin-top: 185px;text-align:left;}
+
+.basefooter{width:100%;height:265px;float:left;
+            background-image: url(images/BG.jpg);  
+            background-repeat:no-repeat;
+			background-size:100% 100%;}
+
+.footermenu ul li{ float:left;margin-top:20px;margin-right:80px;}
+.footermenu ul li a{text-decoration:none;margin-right:30px;  font-family: 'Calibri', sans-serif; font-weight:bold; color:#e8e1c5; font-size:16pt;}
+.footermenu li a:hover{color:#b3ad99}
+
+.footer{max-width:780px;float: right;margin-top:20px;display:flex;flex-wrap:wrap;flex-direction:row;}
+.footerone{width:100px;height:30px;border-bottom:1px solid #4d322d;margin:5px ;}
+.footer a{font-family: 'Calibri', sans-serif;font-size:11pt;color:#9b7871;text-decoration:none; }
+#mater{font-size:10px;}
+.footer  a:hover{color:#e8e1c5}
+.footertwo{width:100px;height:30px;margin:5px;}
+
+
+/*
+
+*/
+
+@media screen and (max-width: 1100px) { /* 980<width<1100 main 980*/
+.base{width:98%}
+.baseheader{width:99%;background-size: 160%;background-position: -158px 0px;}
+
+.slider {width: 98%;}
+.contain{width: 99%}
+}
+
+ /*-------------------------------------*/
+
+@media screen and (max-width: 979px) { /* 768<width<979 main 768*/
+.baseheader {width: 99%;background-size: 200%; background-position: -301px 0px;}
+.logo{width:115px;}
+.center{width:768px;}
+.language{width: 65px;margin-right: 20px;}
+.menu{margin-left: 226px;}
+
+.apartment{margin: 85px 0px 0px 320px;width: 385px;height: 250px;}
+.home{height: 480px;}
+.slider img{ width:100%; height:480px;}
+.apartment .arial {margin: 45px 30px 0px 30px;}
+.apartment .apart{font-size: 25pt;}
+
+.riahomes .riahometext {margin-top: 10px;}
+.riaplacetwo .riahometext {margin-top: 20px;}
+
+.contain {height: 410px;}
+.contain .containleft{width: 48%;height: 410px;}
+.contain .containright{width: 52%;height: 410px;}
+.contain .containright .vulp{width: 380px;height: 200px;margin: 0px 0px 0px 10px;}
+.contain .containright .vulp .arial{margin: 10px 20px 0px 20px;font-size: 11pt;}
+.contain .containright .vulp .apart {font-size: 25pt;}
+.contain .clock{height: 185px;width: 48%;margin: 16px 0px 0px 10px;background-size: 145%;}
+.contain .kran{height: 185px;width: 48%;margin: 16px 0px 0px 0px}
+
+.riaplacetwo{height: 200px;margin-top: 20px;}
+.boatcontain{height: 665px;}
+.boatcontain .containright{height: 450px;}
+.boatcontain .containrightboat{background-size: 100% 100%;width: 49%;height: 432px;}
+.boatcontain .containrightboat{width: 48%;margin-top: 10px;}
+.boatcontain .containright .vulp{width: 97%;margin: 15px 0px 0px 15px;}
+.boatcontain .containright .vulp .arial {margin: 17px 20px 0px 20px;font-size: 11pt;}
+.boatcontain .containright .cage{height: 195px;width: 180px;margin: 10px 0px 0px 15px;}
+.boatcontain .containright .river{height: 195px;width: 180px;margin: 10px 0px 0px 0px;}
+
+.Floorplan{height: 655px;}
+.Floorplan .riaplacetwo {height: 190px;}
+.containleftfloor {margin-top: 5px;width: 48%;height: 415px;background-size: 100% 100%;}
+.containrightfloor {width: 51%;height: 415px;margin-top: 5px}
+.containrightfloor .riapaltext{margin-left: 10px;font-size: 9pt;}
+ #prog{margin: 10px 0px 0px 105px;}
+ 
+.royal .riaplacetwo {height: 140px;}
+.royal .riaplacetwo .riahometext {margin-top: 5px;}
+#fusce{margin-left: 10px;margin-right: 10px;}
+#Lipablre{margin-right: 10px;}
+#Chupacabra{margin-right: 10px;}
+#Starikabra{margin-right: 10px;}
+#Fuscebot{margin-left: 10px;margin-right: 10px;}
+#Lipablrebot{margin-right: 10px;}
+#Chupacabrabot{margin-right: 10px;}
+#Starikabrabot{margin-right: 10px;}
+
+.footermenu ul li{margin-right: 25px;margin-left: 24px;}
+.footer{margin-left: 45px;}
+
+}
+
+/*-------------------------------------*/
+
+@media screen and (max-width: 767px) { /* 480<width<767 main 480*/
+.baseheader {width: 99%;background-size: 200% 100%; background-position: -203px 0px;}
+.logo{width:115px;}
+.center{width:480px;}
+.language{width: 65px;margin-right: 20px;}
+.menu{margin-left: 115px;width: 276px;}
+.menu ul li a{margin-right: 15px;font-size: 9pt;}
+.logo{width: 100px;}
+
+.apartment {margin: 145px 0px 0px 48px;}
+
+
+.riaplace {height: 290px;}
+.riapalace{height: 215px;}
+.riapalaceone{height: 215px;}
+.riapalacetwo{height: 215px;height: 160px;float: left;}
+.riahomes{height: 290px;}
+.riahomes .riahometext {margin-top: 10px;font-size: 20pt;text-align:center;}
+.riaplace .riamuli{font-size: 10pt;text-align:center;}
+.riapalaceone .riapaltext {margin-top: 5px;font-size: 9pt;}
+.riapalacetwo .riapaltext{margin-top:5px;font-size: 9pt;}
+#comodo{font-size: 8pt;}
+.riaplacetwo{height: 145px;width: 99%;}
+.riaplacetwo .riahometext {margin-top: 10px;font-size: 20pt;text-align:center;}
+.riaplacetwo .riamuli{text-align:center;}
+.riaplacetwo .riapaltext{margin-top: 5px;font-size: 9pt;}
+
+.contain {height: 325px;}
+.contain .containleft{width: 48%;height:325px;}
+.containleft img{height: 99%;}
+.contain .containright{height:325px;}
+.contain .containright .vulp {width: 94%;height: 175px;margin: 0px 0px 0px 3px;}
+.containright .vulp .feal {font-size: 10pt;margin-top: 5px;}
+.contain .containright .vulp .apart {font-size: 17pt;}
+.contain .containright .vulp .arial {margin: 10px 10px 0px 10px;font-size: 9pt;}
+.contain .clock{height: 140px;margin: 10px 0px 0px 5px;}
+.contain .kran{height: 140px;margin: 10px 0px 0px 0px;background-size: 110%;}
+
+.boatcontain .riaplacetwo{height:200px;}
+.boatcontain{height:555px;}
+.boatcontain .containright .vulp{margin: 15px 0px 0px 5px;height: 165px}
+.boatcontain .containright .vulp .feal {font-size: 10pt;margin-top: 5px;}
+.boatcontain .containright .vulp .apart {font-size: 17pt;}
+.boatcontain .containright .vulp .arial {margin: 10px 10px 0px 10px;font-size: 9pt;}
+.boatcontain .containright{width:52%;height:335px;}
+.boatcontain .containright .cage{width:48%;height: 140px;margin: 10px 0px 0px 0px;}
+.boatcontain .containright .river{width:48%;height: 140px;margin: 10px 5px 0px 0px;}
+.boatcontain .containrightboat{height: 321px;}
+
+.Floorplan{height: 645px;}
+.Floorplan .containrightfloor .riapaltext{margin-left: 5px;margin-top: 5px;font-size: 8pt;}
+ #prog{margin: 25px 0px 0px 55px;width: 150px;height: 35px;font-size: 10pt;}
+.Floorplan .containrightfloor #floorol{font-size: 9px;margin: 5px 0px 0px 10px;}
+
+#fusce{margin-left: 5px;margin-right: 5px;}
+#Lipablre{margin-right: 5px;}
+#Chupacabra{margin-right: 5px;}
+#Starikabra{margin-right: 5px;}
+.royal .riapaltext {text-align: left;font-size: 11px;}
+#Chupacabra .controyaltext {margin-top: 175px;}
+#fusce .controyaltext {margin-top: 175px;}
+#Lipablre .controyaltext {margin-top: 175px;}
+#Starikabra .controyaltext {margin-top: 175px;}
+
+#Fuscebot {margin-left: 5px;margin-right: 5px;height: 275px;}
+#Lipablrebot{margin-right: 5px;height: 275px;}
+#Chupacabrabot{margin-right: 5px;height: 275px;}
+#Starikabrabot{margin-right: 5px;height: 275px;} 
+#Chupacabrabot .controyaltext {margin-top: 183px;}
+#Fuscebot .controyaltext {margin-top: 183px;}
+#Lipablrebot .controyaltext {margin-top: 183px;}
+#Starikabrabot .controyaltext {margin-top: 183px;overflow:scroll;}
+
+.footermenu ul li {margin-right: 10px;}
+.footermenu ul li a{margin-right: 0px;font-size: 12pt;}
+
+.footer{margin-left: 5px;}
+.footer a{font-size: 9pt;}
+}
+
+
+/*-------------------------------------*/
+
+@media screen and (max-width: 479px) { /* 320<width<479 main 320*/
+.logo {width: 55px;height: 40px;}
+.center{width:320px;}
+.menu{margin-left: 65px;width: 230px;}
+.menu ul li a{margin-right: 4px;font-size: 8pt;}
+select{background-position: 40px 9px;padding-right: 4px;font-size: 8pt;}
+.language{width: 55px;margin-right: 0px;}
+
+.apartment {margin: 100px 0px 0px 5px;width: 300px;height: 215px;}
+.apartment .arial {margin: 20px 10px 0px 10px;font-size: 10pt;}
+.home{height: 420px;}
+.slider img{ width:100%; height:420px;}
+
+.riaplace {height: 365px;}
+.riapalace {height: 300px;}
+.riapalaceone{height: 300px;}
+.riapalacetwo{height: 300px;}
+.riahomes {height: 365px;}
+.riahomes .riahometext {margin-top: 5px;font-size: 15pt;}
+.riamuli {text-align: center;}
+.riapalaceone .riapaltext {margin-top: 5px;font-size: 9pt;}
+.riapalacetwo .riapaltext{margin-top:5px;font-size: 9pt;}
+
+
+.riaplacetwo{height: 145px;}
+.riaplacetwo .riahometext {margin-top: 10px;font-size: 15pt;}
+.riaplacetwo .riamuli{margin-top:0px; font-size:10pt;}
+.riaplacetwo .riapaltext{margin-top: 5px;font-size: 9pt;}
+
+.contain{height:245px;}
+.contain .containleft{width: 48%;height:242px;}
+.contain .containright{height:245px;}
+.contain .containright .vulp {width: 96%;height: 140px;margin: 0px 0px 0px 5px;}
+.contain .containright .vulp .apart {font-size: 9pt;}
+.containright .vulp .feal {font-size: 8pt;margin-top: 0px;}
+.contain .containright .vulp .arial {margin: 0px 3px 0px 3px;font-size: 7pt;}
+.contain .clock{height: 95px;margin: 5px 0px 0px 5px;background-size: 119% 100%;}
+.contain .kran{height: 95px;margin: 5px 0px 0px 0px;background-size: 100% 100%;}
+
+.boatcontain .containright .vulp {margin: 13px 0px 0px 2px;height: 165px;}
+.boatcontain .containright .vulp .apart {font-size: 10pt;}
+.boatcontain .containright .vulp .feal {font-size: 8pt;margin-top: 0px;}
+.boatcontain .containright .vulp .arial {margin: 0px 3px 0px 3px;font-size: 8pt}
+.boatcontain .riaplacetwo {height: 200px;width: 97%;}
+
+.Floorplan {height: 900px;}
+.containleftfloor {margin-top: 10px;width: 99%;height: 320px}
+.containrightfloor {width: 98%;height: 350px;}
+#prog { margin: 16px 0px 0px 82px;width: 134px;height: 35px;font-size: 9pt}
+
+#fusce{height: 240px;width:46%;margin-right: 10px;}
+#Lipablre{height: 240px;width:46%;}
+#Chupacabra{height: 240px;width:46%;margin-right: 10px;margin-left: 5px;}
+#Starikabra{height: 240px;width:46%}
+
+#Fuscebot{height: 240px;width:46%;margin-right: 10px;}
+#Lipablrebot{height: 240px;width:46%;}
+#Chupacabrabot{height: 240px;width:46%;margin-right: 10px;margin-left: 5px;}
+#Starikabrabot{height: 240px;width:46%}
+#Chupacabrabot .controyaltext {margin-top: 170px;}
+#Fuscebot .controyaltext {margin-top: 170px;}
+#Lipablrebot .controyaltext {margin-top: 170px;}
+#Starikabrabot .controyaltext {margin-top: 170px;}
+.footermenu ul li{margin-right: 0px;margin-left: 12px;margin-top: 9px;}
+.footermenu ul li a{font-size: 10pt;}
+
+.footerone{width:80px;height:20px}
+.footertwo{width:80px;height:20px}
+#mater {font-size: 8px;}
+.footer a {font-size: 8pt;}
+.footertwoempty{display:none}
+}
+
+
+
+
+
+
+
+
